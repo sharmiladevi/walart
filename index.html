@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WalArt</title>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="gallery-layout.html"></script>
+</head>
+<body style="background-color:#454442; height:100%; width:100%" >
+        <form action="drag-image-upload.php" method="post" enctype="multipart/form-data" background-position="center" style=" height:100%; margin:auto; position:absolute; top:20%; bottom:0px;  left:40%; right:0px;">
+            <p style=" font-style:oblique; font-size:xx-large;"> Take a pic of your wall</p>
+            <br />
+            <input type="file" style=" font-size:20px; margin-left:10%;" name="camera_file" id="camera_file" accept="image/*;capture=camera">
+            <br />
+            <label>height</label>
+            <input type="number" id="image_height" name="image_height" /> 
+            <label>ft.</label>
+            <br />
+            <input type="submit" style="font-size:20px;" name="submit" value="Go">
+        </form>tt
+</body>
+</html>
